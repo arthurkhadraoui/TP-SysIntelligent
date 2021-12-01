@@ -3,7 +3,7 @@ class Character:
 
 
     def __init__(self,nom,prenom,age,profession,boostMoral):
-        self.nom=nom
+        self.nom = nom
         self.prenom = prenom
         self.age = age
         self.profession = profession
@@ -41,5 +41,3 @@ class Character:
 
     def __repr__(self):
         return "Prenom: "+self.prenom + " Nom: " + self.nom + "\nAge: " + str(self.age) + " Profession: " + self.profession + " Boost Moral: "+ str(self.boostMoral)
-
-
