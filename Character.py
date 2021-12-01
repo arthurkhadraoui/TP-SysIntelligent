@@ -13,7 +13,7 @@ class Character:
         return self.age
 
     def getPrenom(self):
-        return self.Prenom
+        return self.prenom
 
     def getNom(self):
         return self.nom

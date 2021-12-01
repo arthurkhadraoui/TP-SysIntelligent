@@ -19,9 +19,9 @@ class Army:
         self.moralValue = moralValue
 
     def __repr__(self):
-        return "Chef: "+ self.chief.getPrenom() + " " + self.chief.getNom() + " Valeur morale: " + str(self.moralValue)
+        return "Chef: "+ self.chief.getPrenom() + " " + self.chief.getNom() + " \nValeur morale totale: " + str(self.moralValue)
 
-    def get_total_moral():
+    def get_total_moral(self):
         totalMoral = self.moralValue * self.chief.getBoostMoral()
         return totalMoral
 
